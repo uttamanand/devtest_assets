@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Status: 200 OK
+Connection: keep-alive
+
+{
+    "atms": [
+        {
+            "atmLocation": {
+                "address": {
+                    "city": "ISLANDIA",
+                    "country": "USA",
+                    "postalCode": "11749",
+                    "state": "NY",
+                    "street": "1700 VETERANS HIGHWAY"
+                },
+                "coordinates": {
+                    "latitude": 40.805604,
+                    "longitude": -73.181343
+                },
+                "id": "848936",
+                "isAvailable24Hours": true,
+                "isDepositAvailable": false,
+                "isHandicappedAccessible": false,
+                "isOffPremise": true,
+                "isSeasonal": false,
+                "languageType": null,
+                "locationDescription": "1700 VETERANS HIGHWAY,ISLANDIA,NY,11749,USA",
+                "logoName": "711",
+                "name": "7ELEVEN-FCTI"
+            },
+            "distance": 0.5843634867457268
+        }
+    ],
+    "atms_count": 1,
+    "error_code": "0",
+    "http_code": "200",
+    "limit": 20,
+    "page": 1,
+    "page_count": 3,
+    "success": true
+}
